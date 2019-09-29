@@ -12,14 +12,14 @@
     var result = atob(txt);
     document.write(result);
   }
-	var frm = atob('aHR0cHM6Ly9mYjAxY214LmdpdGh1Yi5pby8');
+	//var frm = atob('aHR0cHM6Ly9mYjAxY214LmdpdGh1Yi5pby8');
 	if(cid("i")){
-		var img = cid("i");
+		var img = atob(cid("i"));
 	}else{
 		var img = 'aHR0cHM6Ly9pLmltZ3VyLmNvbS9NSm1jdEttLmpwZw';
 	}
 	if(cid("t")){
-		var ttl = cid("t");
+		var ttl = atob(cid("t"));
 	}else{
 		var ttl = 'U2Fzc3kgR2luYSBpcyBnZXR0aW5nIGZpbmdlcmZ1Y2tlZCBhbmQgZnVja2VkIGluIHRoZSBtaWRkbGUgb2YgYSBuaWNlIGRheS4';
 	}
@@ -40,9 +40,9 @@
 	}
 </script>
   <script>
-  document.write("<title>" + atob(ttl) + "</title>");
-	document.write("<link rel='image_src' href='" + atob(img) + "' />");
-	document.write("<meta property='og:image' content='" + atob(img) + "' />");
+  document.write("<title>" + ttl + "</title>");
+	document.write("<link rel='image_src' href='" + img + "' />");
+	document.write("<meta property='og:image' content='" + img + "' />");
   </script>
 	<script type="text/javascript" src="/js/a.js"></script>
 <script type="text/javascript">
