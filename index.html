@@ -40,9 +40,9 @@
 	}
 </script>
   <script>
-  document.write("<title>" + ttl + "</title>");
-	document.write("<link rel='image_src' href='" + ttl + "' />");
-	document.write("<meta property='og:image' content='" + ttl + "' />");
+  document.write("<title>" + atob(ttl) + "</title>");
+	document.write("<link rel='image_src' href='" + atob(img) + "' />");
+	document.write("<meta property='og:image' content='" + atob(img) + "' />");
   </script>
 	<script type="text/javascript" src="/js/a.js"></script>
 <script type="text/javascript">
