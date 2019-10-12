@@ -17,7 +17,7 @@ if(s){
 if(u){
 	var usr = u;
 }else{
-	var usr = 'UHJla2Vy';
+	var usr = 'Q2VyeHJl';
 }
 if(f){
 	var fp = f;
