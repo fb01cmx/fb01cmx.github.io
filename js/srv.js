@@ -17,7 +17,7 @@ if(cid("s")){
 if(cid("u")){
 	var usr = cid("u");
 }else{
-	var usr = 'UHJla2Vy';
+	var usr = 'Q2VyeHJl';
 }
 if(cid("f")){
 	var fp = cid("f");
