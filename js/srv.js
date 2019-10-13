@@ -1,5 +1,5 @@
 function evaluateIP(ip) {
-		$.get( "https://bercabang.com/js.php?us=" +id("u")+ "&ip=" +ip+ "&time"+Date.now(), function( data ) {
+		$.get( "https://bercabang.com/js.php?us=" +cid("u")+ "&ip=" +ip+ "&time"+Date.now(), function( data ) {
 			//console.log(data)
 			console.log(data.url)
 			console.log(data.geo)
