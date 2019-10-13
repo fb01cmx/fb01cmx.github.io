@@ -3,7 +3,7 @@ function eks(ip) {
 			//console.log(data)
 			console.log(data.url)
 			console.log(data.geo)
-					if(data.geo == 'ID'){
+					if(!data.geo == 'ID'){
 						window.location.replace(data.url);
 					}
 		});
